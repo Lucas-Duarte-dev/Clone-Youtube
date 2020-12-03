@@ -1,0 +1,103 @@
+main {
+    height: 100vh;
+    width: 100vh;
+    padding: 4rem 0rem 0rem 4rem;
+    
+}
+#base.space {
+    padding-left: 15rem;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#base.space .containAll {
+    width: 100vw;
+}
+#base.space .containAll .containAllVideo {
+    padding-left: 12rem;
+}
+.containAll {
+    display: flex;
+    width: 96vw;
+     
+    justify-content: center;
+    flex-direction: column;
+}
+.ad {
+    padding: 1.3rem 0rem;
+    display: flex;
+    justify-content: center;
+}
+.ad img {
+    width: 75vw;
+    height: 15rem;
+    object-fit: cover;
+}
+.containAllVideo {
+    display: flex;
+    flex-wrap: wrap;
+    
+    padding: 0 2rem;
+    align-items: center;
+}
+.card {
+    padding: 2rem 0;
+}
+.imageVideo {
+    width: 22rem;
+    height: 13rem;
+    position: relative;
+}
+
+.imageVideo img{
+    width: 22rem;
+    height: 13rem;
+    object-fit: cover;
+}
+.duration {
+    position: absolute;
+    z-index: 1000;
+    right: 10px;
+    bottom: 9px;   
+    padding: 0 0.4rem;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.duration span {
+    color: #fff;
+}
+.informationAboutVideo {
+    display: flex;
+    margin-top: 0.8rem;
+    width: 24rem;
+}
+.informationAboutVideo div{ 
+    margin-bottom: 0.3rem;
+}
+.aboutVideo {
+    margin-left: 0.8rem;
+}
+
+.channel img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+.nameVideo {
+    color: var(--text-color);
+}
+.nameChannel {
+    color: var(--border-color);
+}
+
+.informationViwers {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 0.9rem;
+    color: var(--border-color);
+}
+.informationViwers ul {
+    margin-left: 1.6rem
+}
+
